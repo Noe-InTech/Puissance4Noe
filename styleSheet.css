@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2;
+    height: 100vh;
+}
+table{
+ 
+    width: 50%;
+    height: 50%;
+    border-collapse: collapse;
+    background-color: white;
+}
+tr{
+    background-color: red;
+    border: 1px solid black;
+    
+}
+td{
+    border: 1px solid black;
+    padding: 1em;
+    text-align: center;
+}
+.rond{
+    background-color: #f2f2f2;
+    width: 90%;
+    height: 90%;
+    border-radius: 50%;
+}
+.text{
+    font-size: 2em;
+    font-weight: bold;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding-bottom: 1em;
+    font-family: 'Roboto', sans-serif;
+    
+}
+#couleurText{
+    padding-left: 10px ;
+ 
+}
+
+.joueurRouge {
+    color: red;
+  }
+  
+  .joueurJaune {
+    color: #e7e700;
+  }

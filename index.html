@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Puissance 4</title>
+    <link rel="stylesheet" href="styleSheet.css">
+
+</head>
+
+<body>
+    <div class="containerTableau">
+
+<div class="text"><p id="winnerText">Joueur </p> <p id="couleurText"> Rouge</p>
+</div> 
+    <svg id="svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="650" height="600"
+            viewBox="0 0 350 300" preserveAspectRatio="none" version="1.1">
+            <defs>
+                <circle id="empty" cx=".5" cy=".5" r=".4" style="fill:#d7d7d7;stroke:black;stroke-width:.05;" />
+                <circle id="yellow" cx=".5" cy=".5" r=".4" style="fill:#e7e700;stroke:black;stroke-width:.05;" />
+                <circle id="red" cx=".5" cy=".5" r=".4" style="fill:#ee0000;stroke:black;stroke-width:.05;" />
+                <circle id="green" cx=".5" cy=".5" r=".4" style="fill:#14bd2a;stroke:black;stroke-width:.05;" />
+
+            </defs>
+            <g transform="scale(50,50) translate(-1,-1)">
+                <rect x="0" y="0" width="8" height="7" fill="#0025E1" />
+
+                <use id="A1" xlink:href="#empty" x="1" y="1" />
+                <use id="B1" xlink:href="#empty" x="2" y="1" />
+                <use id="C1" xlink:href="#empty" x="3" y="1" />
+                <use id="D1" xlink:href="#empty" x="4" y="1" />
+                <use id="E1" xlink:href="#empty" x="5" y="1" />
+                <use id="F1" xlink:href="#empty" x="6" y="1" />
+                <use id="G1" xlink:href="#empty" x="7" y="1" />
+
+                <use id="A2" xlink:href="#empty" x="1" y="2" />
+                <use id="B2" xlink:href="#empty" x="2" y="2" />
+                <use id="C2" xlink:href="#empty" x="3" y="2" />
+                <use id="D2" xlink:href="#empty" x="4" y="2" />
+                <use id="E2" xlink:href="#empty" x="5" y="2" />
+                <use id="F2" xlink:href="#empty" x="6" y="2" />
+                <use id="G2" xlink:href="#empty" x="7" y="2" />
+
+                <use id="A3" xlink:href="#empty" x="1" y="3" />
+                <use id="B3" xlink:href="#empty" x="2" y="3" />
+                <use id="C3" xlink:href="#empty" x="3" y="3" />
+                <use id="D3" xlink:href="#empty" x="4" y="3" />
+                <use id="E3" xlink:href="#empty" x="5" y="3" />
+                <use id="F3" xlink:href="#empty" x="6" y="3" />
+                <use id="G3" xlink:href="#empty" x="7" y="3" />
+
+                <use id="A4" xlink:href="#empty" x="1" y="4" />
+                <use id="B4" xlink:href="#empty" x="2" y="4" />
+                <use id="C4" xlink:href="#empty" x="3" y="4" />
+                <use id="D4" xlink:href="#empty" x="4" y="4" />
+                <use id="E4" xlink:href="#empty" x="5" y="4" />
+                <use id="F4" xlink:href="#empty" x="6" y="4" />
+                <use id="G4" xlink:href="#empty" x="7" y="4" />
+
+                <use id="A5" xlink:href="#empty" x="1" y="5" />
+                <use id="B5" xlink:href="#empty" x="2" y="5" />
+                <use id="C5" xlink:href="#empty" x="3" y="5" />
+                <use id="D5" xlink:href="#empty" x="4" y="5" />
+                <use id="E5" xlink:href="#empty" x="5" y="5" />
+                <use id="F5" xlink:href="#empty" x="6" y="5" />
+                <use id="G5" xlink:href="#empty" x="7" y="5" />
+
+                <use id="A6" xlink:href="#empty" x="1" y="6" />
+                <use id="B6" xlink:href="#empty" x="2" y="6" />
+                <use id="C6" xlink:href="#empty" x="3" y="6" />
+                <use id="D6" xlink:href="#empty" x="4" y="6" />
+                <use id="E6" xlink:href="#empty" x="5" y="6" />
+                <use id="F6" xlink:href="#empty" x="6" y="6" />
+                <use id="G6" xlink:href="#empty" x="7" y="6" />
+
+            </g>
+
+        </svg>
+    </div>
+</body>
+<script src="connect4.js"></script>
+
+</html>
